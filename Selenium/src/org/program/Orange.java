@@ -1,0 +1,40 @@
+package org.program;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Orange {
+public static void main(String[] args) {
+	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajar\\eclipse\\Selenium\\Driver\\chromedriver.exe");
+	
+	WebDriver d= new ChromeDriver();
+	d.get("https://www.amazon.in/");
+	
+	d.manage().window().maximize();
+	
+d.findElement(By.xpath("(//input[@type='text'])[1]")).sendKeys("iphone 15 pro max");
+d.findElement(By.xpath("//input[@value='Go']")).click();
+
+	
+
+
+
+
+
+
+
+
+
+
+
+}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package org.file;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Data {
+	public static void main(String[] args) throws IOException {
+		//existing path.......C:\\java
+		File f = new File("C:\\java\\Batch1\\c\\html\\testing\\anu.txt");
+		f.createNewFile();
+		
+		
+
+}}

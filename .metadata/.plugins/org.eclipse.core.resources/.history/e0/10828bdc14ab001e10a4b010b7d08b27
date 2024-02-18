@@ -1,0 +1,16 @@
+package org.colour;//SAME PACKAGE
+
+public class Studend {// defalut
+	// defalut same package....using obj create
+	
+	default void studentid() {
+		System.out.println("Student id is 123456");
+	}
+	default void studentname() {
+System.out.println("Student name kohil");
+}
+		
+	}
+	
+
+

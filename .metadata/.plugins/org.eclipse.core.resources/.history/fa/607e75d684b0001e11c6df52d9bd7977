@@ -1,0 +1,25 @@
+package org.bank;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public interface HoneyBee1 {
+	public static void main(String[] args) {
+		
+		List<Integer>li = new ArrayList<>();
+		
+//9) addall(collection)......to add the element present from one collection to another
+		
+		li.add(10);
+		li.add(20);
+		li.add(30);
+		li.add(null);
+		li.add(10);
+		
+		System.out.println(li);
+		
+	}
+	
+	
+
+}

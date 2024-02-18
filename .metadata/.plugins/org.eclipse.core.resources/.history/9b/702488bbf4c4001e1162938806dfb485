@@ -1,0 +1,25 @@
+package org.testing;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Data {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webDriver.chrome.Driver", "C:\\Users\\rajar\\eclipse\\Selenium\\Driver\\chromedriver.exe");
+		
+		WebDriver d = new ChromeDriver();
+		
+		d.get("https://www.facebook.com");
+		
+		
+	
+		
+		
+		
+	}
+	
+}

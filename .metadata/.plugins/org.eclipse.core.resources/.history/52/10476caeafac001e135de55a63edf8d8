@@ -1,0 +1,27 @@
+package org.length;
+public class Data3 {
+	public static void main(String[] args) {
+		        // 0123456789012345678901234
+		String s ="computer programming test";
+//9) indexof(value)......ton find the index of the partcular index value
+		int indexOf = s.indexOf('p');
+		System.out.println("get the index position of p:"+indexOf);
+		
+//10)lastindexof(value)......to finmd the lastindex of the partcular index value
+		int lastIndexOf = s.lastIndexOf('p');
+		System.out.println("last index of given string p: "+lastIndexOf);
+		
+//11) substring(start index).....to create a sub string from the given start index to enf of the string
+		String substring = s.substring(7);
+		System.out.println("staring index position is :"+substring);
+		
+//12)substring(start index,end index)....tocreat a sub string from the given start index to given end index.
+		String substring2 = s.substring(5,22 );
+		System.out.println("given start index to given end:" +indexsubstring2);
+	
+
+	
+		
+	}}
+
+

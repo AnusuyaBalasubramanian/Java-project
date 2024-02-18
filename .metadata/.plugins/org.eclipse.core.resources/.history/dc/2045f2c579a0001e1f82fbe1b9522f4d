@@ -1,0 +1,5 @@
+package org.collection;
+
+public class Collection1 extends Collection {
+
+}

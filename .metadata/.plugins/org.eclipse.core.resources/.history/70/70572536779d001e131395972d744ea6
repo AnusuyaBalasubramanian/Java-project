@@ -1,0 +1,15 @@
+package org.length;
+
+public class DataLength6 {
+	public static void main(String[] args) {
+		
+		String A = "Nisha";
+		String B = "nisha";
+		
+	boolean A1 = A.equals(A);
+	System.out.println(A1);
+		
+	}
+
+	
+}

@@ -1,0 +1,15 @@
+package org.length;
+
+public class Data {
+	
+public static void main(String[] args) {
+	
+	String s = "Green Technology";
+	String s = "SeleniumAutomationtool";
+	String s = "velmurugan";
+	
+	int length1 = s.length();
+	System.out.println("total number of character");
+	System.out.println("index of above string="+length1);
+}	
+}

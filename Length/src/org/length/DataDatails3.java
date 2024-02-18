@@ -1,0 +1,10 @@
+package org.length;
+
+public class DataDatails3 {
+public static void main(String[] args) {
+	
+	String A = "Greens Adayar";
+	String A1 = A.replace("Greens Adayar", "Greens omr");
+	System.out.println(A1);
+}
+}

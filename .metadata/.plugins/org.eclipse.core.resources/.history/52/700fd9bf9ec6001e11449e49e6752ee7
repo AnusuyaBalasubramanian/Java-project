@@ -1,0 +1,12 @@
+package org.testing;
+
+public class Blue {
+
+	// javaScriptExecutor...... is used to execute javaScript code in selenium webdriver
+	 // javascript.....good and fast at interatacting with webElements.
+	//executeScript()...mathode
+	 
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "")
+	}
+}

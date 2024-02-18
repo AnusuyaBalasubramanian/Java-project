@@ -1,0 +1,19 @@
+package org.length;
+
+public class Data2 {         
+	// 3) tolowercase.....to convert string into lower case
+	public static void main(String[] args) {
+		
+		String s ="JAVA PROGRamming teST";
+		String s1 = s.toLowerCase();
+		
+		System.out.println("convert to lowercase: "+s1);
+	
+	
+	// 4) statswith(value).........
+		
+		boolean S2 = s.startsWith("jAV");
+		System.out.println("Check wherther string starts with JAV :" +S2);
+		
+	 
+}}

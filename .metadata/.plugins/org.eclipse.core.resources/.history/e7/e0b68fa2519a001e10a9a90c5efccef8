@@ -1,0 +1,19 @@
+package org.length;
+
+public class Data {
+	
+public static void main(String[] args) {
+	
+	String s = "Green Technology";
+	String s1 = "SeleniumAutomationtool";
+	String s2 = "velmurugan";
+
+	
+	int length1 = s.length();
+	int length2 = s1.length();
+	int length3 = s2.length();
+	System.out.println("total number of character = "+length1);
+	System.out.println("total number of character = "+length2);
+	System.out.println("total number of character = "+length3);
+}
+}

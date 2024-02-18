@@ -1,0 +1,12 @@
+package org.length;
+
+public class Index {
+	public static void main(String[] args) {
+		String s1 = "Green Technology";
+		
+		
+		int s = s1.length();
+		System.out.println("the last index of 0 = "+(s1.length()-1));
+		
+	}
+}

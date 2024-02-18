@@ -1,0 +1,12 @@
+package org.emp;
+
+public class Employee2 {
+	public static void main(String[] args) {
+		byte age =27;
+		System.out.println("Employee age is"+age);
+	}
+	
+	
+	
+
+}

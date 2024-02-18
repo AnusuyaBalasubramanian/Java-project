@@ -1,0 +1,9 @@
+package org.bike;
+public class Bike {
+	public void cost() {
+System.out.println("hero bike cost = 2 lakh");
+	}
+	public void speed() {
+System.out.println("hero bike speed = 150kmph");
+	}
+}

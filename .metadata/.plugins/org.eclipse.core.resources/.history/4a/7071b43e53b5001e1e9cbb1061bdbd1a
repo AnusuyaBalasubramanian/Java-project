@@ -1,0 +1,14 @@
+package org.file;
+
+import java.io.File;
+
+public class Data {
+	public static void main(String[] args) {
+		//existing path.......C:\\java
+		File f = new File("C:\\java\\Batch1");
+		boolean mkdir = f.mkdir();//to create a multiple folder  folder
+		System.out.println(mkdir);
+		
+	}
+
+}

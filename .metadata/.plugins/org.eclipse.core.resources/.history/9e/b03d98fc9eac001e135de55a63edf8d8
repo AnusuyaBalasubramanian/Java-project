@@ -1,0 +1,16 @@
+package org.length;
+
+public class Data3 {
+	
+	public static void main(String[] args) {
+		
+		String s ="computer programming test";
+		//9) indexof(value)......ton find the index of the partcular index value
+		
+		int indexOf = s.indexOf('p');
+		
+		System.out.println("get the index position of o:"+indexOf);
+		
+	}
+
+}

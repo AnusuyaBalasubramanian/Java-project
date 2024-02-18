@@ -1,0 +1,24 @@
+package org.bank;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public interface HoneyBee {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> li = new ArrayList<>();//syntax
+		//1) add(element).....to add the element in to the list
+		
+		li.add(10);//0
+		li.add(20);//1
+		li.add(30);//2
+		li.add(40);//3
+		li.add(50);//4
+		
+		System.out.println("to add the all the elementin the list ="+li);
+		
+		
+	}
+
+}

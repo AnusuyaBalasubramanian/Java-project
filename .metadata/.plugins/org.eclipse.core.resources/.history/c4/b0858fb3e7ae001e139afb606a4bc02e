@@ -1,0 +1,20 @@
+package org.emp;
+
+import java.util.Scanner;
+
+public class Data1 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		Scanner s1= new Scanner(System.in);
+		System.out.println("enter the student id is");
+		int stupid = s.nextInt();
+		System.out.println("enter the student name is");
+		String stuname = s1.nextLine();
+		System.out.println("enter the student mark1");
+		byte mark1 = s.nextByte();
+		System.out.println("enter the student mark2");
+		int mark2 = s.nextInt();
+	}
+}

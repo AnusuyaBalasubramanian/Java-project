@@ -1,0 +1,9 @@
+package org.network;
+
+public class MobileData {
+	
+	private void dataName() {
+System.out.println("dataname is 345667");
+	}
+
+}

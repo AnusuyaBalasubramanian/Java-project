@@ -1,0 +1,25 @@
+package org.collection;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+
+public class Employee7 {
+
+public static void main(String[] args) {
+Map<Character, Integer> Mp = new LinkedHashMap<>()<Character, Integer>();
+		
+		Mp.put('!', 10);
+		Mp.put('@', 20);
+		Mp.put('#', 30);
+		Mp.put('$', 40);
+		Mp.put('%', 50);
+		Mp.put('^', 60);
+		Mp.put('&', 10);
+		Mp.put('*', 50);
+		Mp.put('(', 40);
+		
+		
+		System.out.println(Mp);
+	}
+}
